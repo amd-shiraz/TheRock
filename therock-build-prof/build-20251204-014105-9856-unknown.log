@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/rdft/dht-rader.c.o -MF CMakeFiles/fftw3.dir/rdft/dht-rader.c.o.d -o CMakeFiles/fftw3.dir/rdft/dht-rader.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/rdft/dht-rader.c
+real=0.28
+user=0.19
+sys=0.08
+maxrss_kb=28672
+

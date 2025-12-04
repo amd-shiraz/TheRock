@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/bz2_objects.dir/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/bzip2/source/crctable.c.o -MF CMakeFiles/bz2_objects.dir/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/bzip2/source/crctable.c.o.d -o CMakeFiles/bz2_objects.dir/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/bzip2/source/crctable.c.o -c /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/bzip2/source/crctable.c
+real=0.03
+user=0.01
+sys=0.02
+maxrss_kb=12288
+

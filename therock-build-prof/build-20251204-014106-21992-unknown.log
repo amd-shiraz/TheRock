@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3f_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3f/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3f.dir/api/execute-split-dft-c2r.c.o -MF CMakeFiles/fftw3f.dir/api/execute-split-dft-c2r.c.o.d -o CMakeFiles/fftw3f.dir/api/execute-split-dft-c2r.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/api/execute-split-dft-c2r.c
+real=0.10
+user=0.04
+sys=0.06
+maxrss_kb=22528
+

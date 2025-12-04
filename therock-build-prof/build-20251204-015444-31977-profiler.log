@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/cc -Dgotcha_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/gotcha/include -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/build/include -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/build/external/gotcha/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/gotcha/src -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -MD -MT external/gotcha/src/CMakeFiles/gotcha.dir/library_filters.c.o -MF external/gotcha/src/CMakeFiles/gotcha.dir/library_filters.c.o.d -o external/gotcha/src/CMakeFiles/gotcha.dir/library_filters.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/gotcha/src/library_filters.c
+real=0.25
+user=0.09
+sys=0.03
+maxrss_kb=22528
+

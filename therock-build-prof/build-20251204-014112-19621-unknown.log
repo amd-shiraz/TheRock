@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -I/home/shiraz/amd/TheRock/build/third-party/spdlog/source/include -isystem /home/shiraz/amd/TheRock/build/third-party/fmt/dist/include -O3 -DNDEBUG -std=c++11 -MD -MT CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -MF CMakeFiles/spdlog.dir/src/file_sinks.cpp.o.d -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/spdlog/source/src/file_sinks.cpp
+real=3.93
+user=2.60
+sys=0.52
+maxrss_kb=126976
+

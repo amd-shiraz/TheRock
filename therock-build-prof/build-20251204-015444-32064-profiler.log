@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/yaml-cpp/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/yaml-cpp/src -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -MF external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o.d -o external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/yaml-cpp/src/nodebuilder.cpp
+real=3.34
+user=2.07
+sys=0.21
+maxrss_kb=114688
+

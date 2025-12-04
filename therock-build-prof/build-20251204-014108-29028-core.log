@@ -1,0 +1,7 @@
+comp=core
+cmd=/usr/bin/c++ -DTARGET_LIBRARY_INSTALL_DIR="lib" -DTARGET_LIBRARY_NAME="rocm-core" -Drocm_core_EXPORTS -I/home/shiraz/amd/TheRock/build/base/rocm-core/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/rocm-core.dir/rocm_getpath.cpp.o -MF CMakeFiles/rocm-core.dir/rocm_getpath.cpp.o.d -o CMakeFiles/rocm-core.dir/rocm_getpath.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocm-core/rocm_getpath.cpp
+real=0.07
+user=0.04
+sys=0.03
+maxrss_kb=30720
+

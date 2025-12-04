@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3f_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3f/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3f.dir/kernel/assert.c.o -MF CMakeFiles/fftw3f.dir/kernel/assert.c.o.d -o CMakeFiles/fftw3f.dir/kernel/assert.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/kernel/assert.c
+real=0.09
+user=0.03
+sys=0.05
+maxrss_kb=22528
+

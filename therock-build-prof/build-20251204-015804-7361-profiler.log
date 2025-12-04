@@ -1,0 +1,8 @@
+Command exited with non-zero status 1
+comp=profiler
+cmd=/usr/bin/c++ -DcmTC_ee850_EXPORTS -std=c++17 -fPIE -o CMakeFiles/cmTC_ee850.dir/test_mpi.cpp.o -c /home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/CMakeFiles/CMakeScratch/TryCompile-9gFXfc/test_mpi.cpp
+real=0.02
+user=0.00
+sys=0.01
+maxrss_kb=8192
+

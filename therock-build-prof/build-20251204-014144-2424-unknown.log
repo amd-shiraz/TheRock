@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DBORINGSSL_IMPLEMENTATION -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/include -fvisibility=hidden -fno-common -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++14 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/boringssl-with-bazel/CMakeFiles/ssl.dir/src/ssl/dtls_record.cc.o -MF third_party/boringssl-with-bazel/CMakeFiles/ssl.dir/src/ssl/dtls_record.cc.o.d -o third_party/boringssl-with-bazel/CMakeFiles/ssl.dir/src/ssl/dtls_record.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/ssl/dtls_record.cc
+real=1.34
+user=0.98
+sys=0.34
+maxrss_kb=120832
+

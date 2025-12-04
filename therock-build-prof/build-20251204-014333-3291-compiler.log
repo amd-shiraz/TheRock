@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/c++ -DCLANG_EXPORTS -DGTEST_HAS_RTTI=0 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/build/tools/clang/lib/AST -I/home/shiraz/amd/TheRock/compiler/amd-llvm/clang/lib/AST -I/home/shiraz/amd/TheRock/compiler/amd-llvm/clang/include -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/build/tools/clang/include -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/build/include -I/home/shiraz/amd/TheRock/compiler/amd-llvm/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-dangling-reference -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -pedantic -Wno-long-long -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o -MF tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o.d -o tools/clang/lib/AST/CMakeFiles/obj.clangAST.dir/ODRHash.cpp.o -c /home/shiraz/amd/TheRock/compiler/amd-llvm/clang/lib/AST/ODRHash.cpp
+real=11.87
+user=10.73
+sys=1.05
+maxrss_kb=485356
+

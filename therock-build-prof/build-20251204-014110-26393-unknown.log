@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/third_party/shared_mutex -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/rocm_smi/include -Wall -Wextra -fno-rtti -m64 -msse -msse2 -Wconversion -Wcast-align -Wformat=2 -fno-common -Wstrict-overflow -Woverloaded-virtual -Wreorder -O2 -DFORTIFY_SOURCE=2 -fstack-protector-all -Wcast-align -Wtrampolines -O3 -DNDEBUG -std=gnu++17 -MD -MT rocm_smi/CMakeFiles/rocm_smi_ex.dir/example/rocm_smi_example.cc.o -MF rocm_smi/CMakeFiles/rocm_smi_ex.dir/example/rocm_smi_example.cc.o.d -o rocm_smi/CMakeFiles/rocm_smi_ex.dir/example/rocm_smi_example.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/rocm_smi/example/rocm_smi_example.cc
+real=7.77
+user=6.00
+sys=0.71
+maxrss_kb=210944
+

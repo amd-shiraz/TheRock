@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/c++ -DGTEST_HAS_RTTI=0 -D_GLIBCXX_USE_CXX11_ABI=1 -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/build/tools/llvm-ar -I/home/shiraz/amd/TheRock/compiler/amd-llvm/llvm/tools/llvm-ar -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/build/include -I/home/shiraz/amd/TheRock/compiler/amd-llvm/llvm/include -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-dangling-reference -Wno-redundant-move -Wno-pessimizing-move -Wno-array-bounds -Wno-stringop-overread -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -O3 -DNDEBUG -std=c++17 -fno-exceptions -funwind-tables -fno-rtti -MD -MT tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar-driver.cpp.o -MF tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar-driver.cpp.o.d -o tools/llvm-ar/CMakeFiles/llvm-ar.dir/llvm-ar-driver.cpp.o -c /home/shiraz/amd/TheRock/build/compiler/amd-llvm/build/tools/llvm-ar/llvm-ar-driver.cpp
+real=1.29
+user=0.65
+sys=0.63
+maxrss_kb=102400
+

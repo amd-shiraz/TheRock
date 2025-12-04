@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DGOOGLE_PROTOBUF_CMAKE_BUILD -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/third_party/utf8_range -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/raw_ptr.cc.o -MF third_party/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/raw_ptr.cc.o.d -o third_party/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/raw_ptr.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src/google/protobuf/raw_ptr.cc
+real=0.28
+user=0.14
+sys=0.12
+maxrss_kb=30720
+

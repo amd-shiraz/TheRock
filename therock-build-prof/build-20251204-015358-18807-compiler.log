@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/cc -I/home/shiraz/amd/TheRock/build/compiler/amd-comgr/build/include -O3 -DNDEBUG -MD -MT CMakeFiles/bc2h.dir/bc2h.c.o -MF CMakeFiles/bc2h.dir/bc2h.c.o.d -o CMakeFiles/bc2h.dir/bc2h.c.o -c /home/shiraz/amd/TheRock/build/compiler/amd-comgr/build/bc2h.c
+real=0.03
+user=0.01
+sys=0.01
+maxrss_kb=22528
+

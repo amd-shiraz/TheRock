@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/strings/CMakeFiles/cordz_sample_token.dir/internal/cordz_sample_token.cc.o -MF third_party/abseil-cpp/absl/strings/CMakeFiles/cordz_sample_token.dir/internal/cordz_sample_token.cc.o.d -o third_party/abseil-cpp/absl/strings/CMakeFiles/cordz_sample_token.dir/internal/cordz_sample_token.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/strings/internal/cordz_sample_token.cc
+real=2.17
+user=1.07
+sys=0.67
+maxrss_kb=116736
+

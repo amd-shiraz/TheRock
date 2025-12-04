@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/c++ -O3 -DNDEBUG -std=gnu++17 -MD -MT CMakeFiles/hipconfig.dir/src/utils.cpp.o -MF CMakeFiles/hipconfig.dir/src/utils.cpp.o.d -o CMakeFiles/hipconfig.dir/src/utils.cpp.o -c /home/shiraz/amd/TheRock/compiler/amd-llvm/amd/hipcc/src/utils.cpp
+real=0.63
+user=0.54
+sys=0.08
+maxrss_kb=104448
+

@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DCARES_STATICLIB -DHAVE_CONFIG_H=1 -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600 -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/cares/cares -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/cares/cares -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/cares/cares/include -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/cares/cares/src/lib -O3 -DNDEBUG -fPIC -MD -MT third_party/cares/cares/src/lib/CMakeFiles/c-ares.dir/ares_android.c.o -MF third_party/cares/cares/src/lib/CMakeFiles/c-ares.dir/ares_android.c.o.d -o third_party/cares/cares/src/lib/CMakeFiles/c-ares.dir/ares_android.c.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/cares/cares/src/lib/ares_android.c
+real=0.07
+user=0.01
+sys=0.04
+maxrss_kb=10240
+

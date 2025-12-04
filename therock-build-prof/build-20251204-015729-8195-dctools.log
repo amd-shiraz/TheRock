@@ -1,0 +1,7 @@
+comp=dctools
+cmd=/usr/bin/c++ -DENABLE_ESMI_LIB=1 -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libcap/build/stage/lib/rocm_sysdeps/include -isystem /home/shiraz/amd/TheRock/build/dctools/rdc/build/_deps/googletest-src/googletest/include -isystem /home/shiraz/amd/TheRock/build/dctools/rdc/build/_deps/googletest-src/googletest -Wall -Wextra -m64 -msse -msse2 -O2 -s -DNDEBUG -std=c++17 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -MD -MT _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/shiraz/amd/TheRock/build/dctools/rdc/build/_deps/googletest-src/googletest/src/gtest_main.cc
+real=10.69
+user=1.93
+sys=0.34
+maxrss_kb=147456
+

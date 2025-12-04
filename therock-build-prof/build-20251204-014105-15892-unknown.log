@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/rdft/scalar/r2cb/hb2_16.c.o -MF CMakeFiles/fftw3.dir/rdft/scalar/r2cb/hb2_16.c.o.d -o CMakeFiles/fftw3.dir/rdft/scalar/r2cb/hb2_16.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/rdft/scalar/r2cb/hb2_16.c
+real=0.25
+user=0.18
+sys=0.06
+maxrss_kb=28672
+

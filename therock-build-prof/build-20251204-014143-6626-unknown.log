@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DBORINGSSL_IMPLEMENTATION -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/include -fvisibility=hidden -fno-common -D_XOPEN_SOURCE=700 -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -MD -MT third_party/boringssl-with-bazel/CMakeFiles/crypto.dir/src/crypto/pool/pool.c.o -MF third_party/boringssl-with-bazel/CMakeFiles/crypto.dir/src/crypto/pool/pool.c.o.d -o third_party/boringssl-with-bazel/CMakeFiles/crypto.dir/src/crypto/pool/pool.c.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/crypto/pool/pool.c
+real=0.27
+user=0.15
+sys=0.03
+maxrss_kb=24576
+

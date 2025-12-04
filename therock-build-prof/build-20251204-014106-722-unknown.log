@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3f_threads_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3f/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3f_threads.dir/threads/conf.c.o -MF CMakeFiles/fftw3f_threads.dir/threads/conf.c.o.d -o CMakeFiles/fftw3f_threads.dir/threads/conf.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/threads/conf.c
+real=0.06
+user=0.04
+sys=0.02
+maxrss_kb=20480
+

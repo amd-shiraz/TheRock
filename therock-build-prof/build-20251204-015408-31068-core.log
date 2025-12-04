@@ -1,0 +1,7 @@
+comp=core
+cmd=/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/bin/clang++ -DLITTLEENDIAN_CPU=1 -isystem /home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class -O3 -DNDEBUG -std=gnu++11 -fexceptions -fno-rtti -fno-math-errno -fno-threadsafe-statics -fmerge-all-constants -fms-extensions -Werror -Wall -m64 -msse -msse2 -MD -MT CMakeFiles/rocminfo.dir/rocminfo.cc.o -MF CMakeFiles/rocminfo.dir/rocminfo.cc.o.d -o CMakeFiles/rocminfo.dir/rocminfo.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocminfo/rocminfo.cc
+real=0.96
+user=0.91
+sys=0.05
+maxrss_kb=116736
+

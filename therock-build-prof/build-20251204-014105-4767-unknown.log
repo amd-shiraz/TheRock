@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -I/home/shiraz/amd/TheRock/build/third-party/flatbuffers/source/include -I/home/shiraz/amd/TheRock/build/third-party/flatbuffers/source/grpc -O3 -DNDEBUG -std=c++17 -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -MD -MT CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o -MF CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o.d -o CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/flatbuffers/source/src/idl_parser.cpp
+real=29.72
+user=25.04
+sys=1.25
+maxrss_kb=438272
+

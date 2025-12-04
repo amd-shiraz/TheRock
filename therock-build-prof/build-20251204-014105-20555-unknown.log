@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFORCE_HASWELL -march=native -DGEMM_MULTITHREAD_THRESHOLD=4 -DNO_PARALLEL_MAKE=0 -I/home/shiraz/amd/TheRock/build/third-party/host-blas/build/build-openblas/getarch_build -I/home/shiraz/amd/TheRock/build/third-party/host-blas/source -I/home/shiraz/amd/TheRock/build/third-party/host-blas/build/build-openblas -o CMakeFiles/cmTC_98671.dir/getarch.c.o -c /home/shiraz/amd/TheRock/build/third-party/host-blas/source/getarch.c
+real=0.11
+user=0.02
+sys=0.07
+maxrss_kb=24576
+

@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DAMD_INTERNAL_BUILD -DHIP_PROF_HIP_API_STRING=1 -DPROF_API_IMPL -DROCTRACER_EXPORTS -D__HIP_PLATFORM_AMD__=1 -I/home/shiraz/amd/TheRock/build/core/clr/dist/include -I/home/shiraz/amd/TheRock/build/profiler/roctracer/build/src -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/inc -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/roctracer -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/util -isystem /home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -Wall -Wno-error=ignored-attributes -Werror -MD -MT src/CMakeFiles/roctracer.dir/roctracer/backward_compat.cpp.o -MF src/CMakeFiles/roctracer.dir/roctracer/backward_compat.cpp.o.d -o src/CMakeFiles/roctracer.dir/roctracer/backward_compat.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/roctracer/backward_compat.cpp
+real=0.11
+user=0.08
+sys=0.03
+maxrss_kb=90112
+

@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/yaml-cpp/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/yaml-cpp/src -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -MF external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o.d -o external/yaml-cpp/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/yaml-cpp/src/memory.cpp
+real=1.68
+user=1.26
+sys=0.17
+maxrss_kb=92160
+

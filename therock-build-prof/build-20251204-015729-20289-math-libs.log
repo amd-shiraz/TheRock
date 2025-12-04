@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -I/home/shiraz/amd/TheRock/build/profiler/roctracer/stage/include -I/home/shiraz/amd/TheRock/rocm-libraries/shared/rocroller/GPUArchitectureGenerator/isa_spec_manager -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -MD -MT GPUArchitectureGenerator/CMakeFiles/isa-spec-manager.dir/isa_spec_manager/amdisa_utility.cpp.o -MF GPUArchitectureGenerator/CMakeFiles/isa-spec-manager.dir/isa_spec_manager/amdisa_utility.cpp.o.d -o GPUArchitectureGenerator/CMakeFiles/isa-spec-manager.dir/isa_spec_manager/amdisa_utility.cpp.o -c /home/shiraz/amd/TheRock/rocm-libraries/shared/rocroller/GPUArchitectureGenerator/isa_spec_manager/amdisa_utility.cpp
+real=13.35
+user=2.66
+sys=0.18
+maxrss_kb=116652
+

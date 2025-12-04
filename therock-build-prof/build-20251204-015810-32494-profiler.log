@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DBOOST_ALL_NO_LIB=1 -DBOOST_MULTI_INDEX_DISABLE_SERIALIZATION -DPTL_ALLOC_EXPORT -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/external/PTL/source -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/external/PTL/source -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT external/PTL/source/CMakeFiles/ptl-object.dir/VUserTaskQueue.cc.o -MF external/PTL/source/CMakeFiles/ptl-object.dir/VUserTaskQueue.cc.o.d -o external/PTL/source/CMakeFiles/ptl-object.dir/VUserTaskQueue.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/external/PTL/source/VUserTaskQueue.cc
+real=2.18
+user=1.63
+sys=0.25
+maxrss_kb=137216
+

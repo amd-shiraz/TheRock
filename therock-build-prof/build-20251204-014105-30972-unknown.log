@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/googletest/source/googlemock/include -I/home/shiraz/amd/TheRock/build/third-party/googletest/source/googlemock -isystem /home/shiraz/amd/TheRock/build/third-party/googletest/source/googletest/include -isystem /home/shiraz/amd/TheRock/build/third-party/googletest/source/googletest -O3 -DNDEBUG -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -MD -MT googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -MF googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d -o googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/shiraz/amd/TheRock/build/third-party/googletest/source/googlemock/src/gmock-all.cc
+real=4.42
+user=3.59
+sys=0.78
+maxrss_kb=260096
+

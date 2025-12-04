@@ -1,0 +1,7 @@
+comp=dctools
+cmd=/usr/bin/c++ -DENABLE_ESMI_LIB=1 -DROCM_DIR="/opt/rocm" -Drdc_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libcap/build/stage/lib/rocm_sysdeps/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/include -isystem /home/shiraz/amd/TheRock/build/base/amdsmi/dist/include -Wall -Wextra -m64 -msse -msse2 -O2 -s -DNDEBUG -std=c++17 -fPIC -MD -MT rdc_libs/rdc/CMakeFiles/rdc.dir/src/RdcTopologyLinkImpl.cc.o -MF rdc_libs/rdc/CMakeFiles/rdc.dir/src/RdcTopologyLinkImpl.cc.o.d -o rdc_libs/rdc/CMakeFiles/rdc.dir/src/RdcTopologyLinkImpl.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rdc/rdc_libs/rdc/src/RdcTopologyLinkImpl.cc
+real=1.92
+user=1.56
+sys=0.24
+maxrss_kb=126976
+

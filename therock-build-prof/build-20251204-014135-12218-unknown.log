@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/internal/cctz/src/civil_time_detail.cc.o -MF third_party/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/internal/cctz/src/civil_time_detail.cc.o.d -o third_party/abseil-cpp/absl/time/CMakeFiles/civil_time.dir/internal/cctz/src/civil_time_detail.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/time/internal/cctz/src/civil_time_detail.cc
+real=1.85
+user=0.96
+sys=0.47
+maxrss_kb=77824
+

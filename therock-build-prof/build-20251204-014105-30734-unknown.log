@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/.. -I/home/shiraz/amd/TheRock/build/third-party/Catch2/build/generated-includes -O3 -DNDEBUG -fPIC -ffile-prefix-map=/home/shiraz/amd/TheRock/build/third-party/Catch2/source/= -MD -MT src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o -MF src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o.d -o src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/internal/catch_floating_point_helpers.cpp
+real=0.37
+user=0.21
+sys=0.15
+maxrss_kb=43008
+

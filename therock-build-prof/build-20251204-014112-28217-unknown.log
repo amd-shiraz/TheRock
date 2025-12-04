@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -I/home/shiraz/amd/TheRock/build/third-party/spdlog/source/include -isystem /home/shiraz/amd/TheRock/build/third-party/fmt/dist/include -O3 -DNDEBUG -std=c++11 -MD -MT CMakeFiles/spdlog.dir/src/spdlog.cpp.o -MF CMakeFiles/spdlog.dir/src/spdlog.cpp.o.d -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/spdlog/source/src/spdlog.cpp
+real=17.74
+user=13.82
+sys=1.29
+maxrss_kb=380928
+

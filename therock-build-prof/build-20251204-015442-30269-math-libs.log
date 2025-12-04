@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHAVE_THREAD_SAFETY_ATTRIBUTES -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/shiraz/amd/TheRock/build/math-libs/rocRAND/build/_deps/googlebenchmark-src/include -I/home/shiraz/amd/TheRock/build/math-libs/rocRAND/build/_deps/googlebenchmark-src/src -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -w -Wall -Wextra -Wshadow -Wfloat-equal -Wold-style-cast -Wconversion -Werror -Wsuggest-override -pedantic -pedantic-errors -Wshorten-64-to-32 -fstrict-aliasing -Wno-deprecated-declarations -Wno-deprecated -Wstrict-aliasing -Wthread-safety -O3 -DNDEBUG -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o -MF _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o.d -o _deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /home/shiraz/amd/TheRock/build/math-libs/rocRAND/build/_deps/googlebenchmark-src/src/benchmark_register.cc
+real=14.12
+user=11.18
+sys=0.30
+maxrss_kb=163560
+

@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DAMD_INTERNAL_BUILD -D__HIP_PLATFORM_AMD__ -Dhip_stats_EXPORTS -I/home/shiraz/amd/TheRock/build/core/clr/dist/include -I/home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -I/home/shiraz/amd/TheRock/build/profiler/roctracer/build/src -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/inc -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wno-error=ignored-attributes -Werror -MD -MT src/CMakeFiles/hip_stats.dir/hip_stats/hip_stats.cpp.o -MF src/CMakeFiles/hip_stats.dir/hip_stats/hip_stats.cpp.o.d -o src/CMakeFiles/hip_stats.dir/hip_stats/hip_stats.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/hip_stats/hip_stats.cpp
+real=10.03
+user=8.39
+sys=0.33
+maxrss_kb=167936
+

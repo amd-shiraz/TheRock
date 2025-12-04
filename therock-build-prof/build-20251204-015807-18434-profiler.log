@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DcmTC_73476_EXPORTS -isystem /home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/external/papi/install/include -std=c++17 -o CMakeFiles/cmTC_73476.dir/papi_link.cpp.o -c /home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/external/timemory/compile-tests/papi_link.cpp
+real=0.09
+user=0.04
+sys=0.04
+maxrss_kb=20480
+

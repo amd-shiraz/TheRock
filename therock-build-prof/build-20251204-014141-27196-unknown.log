@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/third_party/utf8_range -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/upb_generator/cmake -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/upb/reflection/cmake -O3 -DNDEBUG -fPIE -fvisibility=hidden -MD -MT third_party/protobuf/CMakeFiles/protoc-gen-upb_minitable.dir/upb_generator/cmake/google/protobuf/compiler/plugin.upb_minitable.c.o -MF third_party/protobuf/CMakeFiles/protoc-gen-upb_minitable.dir/upb_generator/cmake/google/protobuf/compiler/plugin.upb_minitable.c.o.d -o third_party/protobuf/CMakeFiles/protoc-gen-upb_minitable.dir/upb_generator/cmake/google/protobuf/compiler/plugin.upb_minitable.c.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/upb_generator/cmake/google/protobuf/compiler/plugin.upb_minitable.c
+real=0.21
+user=0.08
+sys=0.04
+maxrss_kb=16384
+

@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DBOOST_ALL_NO_LIB=1 -DBOOST_MULTI_INDEX_DISABLE_SERIALIZATION -DROCPROFSYS_MAX_THREADS=4096 -DROCPROFSYS_USE_BFD=1 -DROCPROFSYS_USE_MPI_HEADERS=1 -DROCPROFSYS_USE_OMPT=1 -DROCPROFSYS_USE_PAPI=1 -DROCPROFSYS_USE_PERFETTO=1 -DROCPROFSYS_USE_ROCM=1 -DROCPROFSYS_USE_ROCPD_LIBRARY=1 -Drocprofiler_systems_user_library_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-user -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT source/lib/rocprof-sys-user/CMakeFiles/rocprofiler-systems-user-library.dir/user.cpp.o -MF source/lib/rocprof-sys-user/CMakeFiles/rocprofiler-systems-user-library.dir/user.cpp.o.d -o source/lib/rocprof-sys-user/CMakeFiles/rocprofiler-systems-user-library.dir/user.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-user/user.cpp
+real=0.71
+user=0.30
+sys=0.06
+maxrss_kb=36864
+

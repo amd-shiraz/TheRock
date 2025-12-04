@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DFMT_HEADER_ONLY=1 -DROCROLLER_USE_HIP -DSPDLOG_FMT_EXTERNAL -DSPDLOG_FWRITE_UNLOCKED -DUSE_PROF_API=1 -D__HIP_PLATFORM_AMD__ -D__HIP_PLATFORM_AMD__=1 -I/home/shiraz/amd/TheRock/build/profiler/roctracer/stage/include -I/home/shiraz/amd/TheRock/rocm-libraries/shared/rocroller/lib/source -I/home/shiraz/amd/TheRock/rocm-libraries/shared/rocroller/lib/include -isystem /home/shiraz/amd/TheRock/build/core/clr/dist/include -isystem /home/shiraz/amd/TheRock/build/third-party/spdlog/dist/include -isystem /home/shiraz/amd/TheRock/build/third-party/fmt/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++20 -fPIC -fno-rtti -MD -MT lib/source/CMakeFiles/rocroller-no-rtti.dir/Utilities/ReadELF.cpp.o -MF lib/source/CMakeFiles/rocroller-no-rtti.dir/Utilities/ReadELF.cpp.o.d -o lib/source/CMakeFiles/rocroller-no-rtti.dir/Utilities/ReadELF.cpp.o -c /home/shiraz/amd/TheRock/rocm-libraries/shared/rocroller/lib/source/Utilities/ReadELF.cpp
+real=5.93
+user=4.78
+sys=0.29
+maxrss_kb=164548
+

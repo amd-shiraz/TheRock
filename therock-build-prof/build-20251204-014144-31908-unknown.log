@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DBORINGSSL_IMPLEMENTATION -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/include -fvisibility=hidden -fno-common -fno-exceptions -fno-rtti -O3 -DNDEBUG -std=gnu++14 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/boringssl-with-bazel/CMakeFiles/bssl.dir/src/tool/server.cc.o -MF third_party/boringssl-with-bazel/CMakeFiles/bssl.dir/src/tool/server.cc.o.d -o third_party/boringssl-with-bazel/CMakeFiles/bssl.dir/src/tool/server.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/tool/server.cc
+real=1.80
+user=1.55
+sys=0.22
+maxrss_kb=126976
+

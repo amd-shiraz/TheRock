@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/base/CMakeFiles/base.dir/internal/cycleclock.cc.o -MF third_party/abseil-cpp/absl/base/CMakeFiles/base.dir/internal/cycleclock.cc.o.d -o third_party/abseil-cpp/absl/base/CMakeFiles/base.dir/internal/cycleclock.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/base/internal/cycleclock.cc
+real=0.35
+user=0.18
+sys=0.05
+maxrss_kb=36864
+

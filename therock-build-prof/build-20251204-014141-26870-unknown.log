@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/re2.dir/re2/unicode_casefold.cc.o -MF third_party/re2/CMakeFiles/re2.dir/re2/unicode_casefold.cc.o.d -o third_party/re2/CMakeFiles/re2.dir/re2/unicode_casefold.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/re2/unicode_casefold.cc
+real=0.05
+user=0.02
+sys=0.03
+maxrss_kb=12288
+

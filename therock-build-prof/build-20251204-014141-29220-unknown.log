@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/re2.dir/util/rune.cc.o -MF third_party/re2/CMakeFiles/re2.dir/util/rune.cc.o.d -o third_party/re2/CMakeFiles/re2.dir/util/rune.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/util/rune.cc
+real=0.17
+user=0.12
+sys=0.03
+maxrss_kb=26624
+

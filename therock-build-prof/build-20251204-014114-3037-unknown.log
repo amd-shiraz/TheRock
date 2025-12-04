@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/include -O3 -DNDEBUG -std=gnu++11 -MD -MT util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o -MF util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o.d -o util/CMakeFiles/yaml-cpp-read.dir/read.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/util/read.cpp
+real=2.62
+user=1.48
+sys=0.40
+maxrss_kb=129024
+

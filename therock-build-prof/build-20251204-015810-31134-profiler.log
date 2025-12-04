@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/cc -DBOOST_ALL_NO_LIB=1 -DBOOST_MULTI_INDEX_DISABLE_SERIALIZATION -Darch_64bit -Darch_x86_64 -Dbug_force_terminate_failure -Dbug_syscall_changepc_rewind -Dcap_32_64 -Dcap_async_events -Dcap_binary_rewriter -Dcap_dwarf -Dcap_fixpoint_gen -Dcap_mutatee_traps -Dcap_noaddr_gen -Dcap_ptrace -Dcap_registers -Dcap_stack_mods -Dcap_stripped_binaries -Dcap_tramp_liveness -Dos_linux -Drocprofiler_systems_rt_library_EXPORTS -Dx86_64_unknown_linux2_4 -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-rt -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-rt/h -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=internal -MD -MT source/lib/rocprof-sys-rt/CMakeFiles/rocprofiler-systems-rt-library.dir/src/RTheap-linux.c.o -MF source/lib/rocprof-sys-rt/CMakeFiles/rocprofiler-systems-rt-library.dir/src/RTheap-linux.c.o.d -o source/lib/rocprof-sys-rt/CMakeFiles/rocprofiler-systems-rt-library.dir/src/RTheap-linux.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-rt/src/RTheap-linux.c
+real=0.19
+user=0.08
+sys=0.04
+maxrss_kb=24576
+

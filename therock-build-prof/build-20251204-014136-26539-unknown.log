@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/bad_variant_access.cc.o -MF third_party/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/bad_variant_access.cc.o.d -o third_party/abseil-cpp/absl/types/CMakeFiles/bad_variant_access.dir/bad_variant_access.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/types/bad_variant_access.cc
+real=0.81
+user=0.36
+sys=0.28
+maxrss_kb=53248
+

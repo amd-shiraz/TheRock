@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/c++ -Damd_comgr_loader_EXPORTS -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/amd_comgr_loader.dir/src/loader.cc.o -MF CMakeFiles/amd_comgr_loader.dir/src/loader.cc.o.d -o CMakeFiles/amd_comgr_loader.dir/src/loader.cc.o -c /home/shiraz/amd/TheRock/compiler/amd-comgr-stub/src/loader.cc
+real=0.23
+user=0.18
+sys=0.05
+maxrss_kb=59392
+

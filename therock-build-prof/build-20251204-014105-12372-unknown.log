@@ -1,0 +1,14 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/rdft/indirect.c.o -MF CMakeFiles/fftw3.dir/rdft/indirect.c.o.d -o CMakeFiles/fftw3.dir/rdft/indirect.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/rdft/indirect.c
+real=0.14
+user=0.08
+sys=0.05
+maxrss_kb=24576
+
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/.. -I/home/shiraz/amd/TheRock/build/third-party/Catch2/build/generated-includes -O3 -DNDEBUG -fPIC -ffile-prefix-map=/home/shiraz/amd/TheRock/build/third-party/Catch2/source/= -MD -MT src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o -MF src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o.d -o src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/reporters/catch_reporter_compact.cpp
+real=1.50
+user=1.23
+sys=0.27
+maxrss_kb=98304
+

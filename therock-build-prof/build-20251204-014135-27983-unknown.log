@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/strings/CMakeFiles/strings.dir/ascii.cc.o -MF third_party/abseil-cpp/absl/strings/CMakeFiles/strings.dir/ascii.cc.o.d -o third_party/abseil-cpp/absl/strings/CMakeFiles/strings.dir/ascii.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/strings/ascii.cc
+real=1.79
+user=0.98
+sys=0.46
+maxrss_kb=90112
+

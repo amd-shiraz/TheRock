@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/bin/clang++ -DGTEST_HAS_RTTI=0 -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/include -std=c++17 -pthread -fno-rtti -fvisibility-inlines-hidden -DLIB_CLANG_RES=22 -O3 -DNDEBUG -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fno-exceptions -funwind-tables -fno-rtti -MD -MT CMakeFiles/hipify-clang.dir/src/CUDA2HIP_Device_types.cpp.o -MF CMakeFiles/hipify-clang.dir/src/CUDA2HIP_Device_types.cpp.o.d -o CMakeFiles/hipify-clang.dir/src/CUDA2HIP_Device_types.cpp.o -c /home/shiraz/amd/TheRock/compiler/hipify/src/CUDA2HIP_Device_types.cpp
+real=1.13
+user=1.01
+sys=0.12
+maxrss_kb=137052
+

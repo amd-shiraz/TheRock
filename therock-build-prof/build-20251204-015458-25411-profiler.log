@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -Drocprofiler_sdk_roctx_python_bindings_3_12_EXPORTS -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/build/source/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/source/include -isystem /usr/include/python3.12 -isystem /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/pybind11/include -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT source/lib/python/roctx/CMakeFiles/rocprofiler-sdk-roctx-python-bindings-3.12.dir/libpyroctx.cpp.o -MF source/lib/python/roctx/CMakeFiles/rocprofiler-sdk-roctx-python-bindings-3.12.dir/libpyroctx.cpp.o.d -o source/lib/python/roctx/CMakeFiles/rocprofiler-sdk-roctx-python-bindings-3.12.dir/libpyroctx.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/source/lib/python/roctx/libpyroctx.cpp
+real=17.73
+user=10.63
+sys=0.73
+maxrss_kb=323584
+

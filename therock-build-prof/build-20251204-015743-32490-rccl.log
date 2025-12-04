@@ -1,0 +1,7 @@
+comp=rccl
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DROCPROFILER_SDK_USE_SYSTEM_RCCL=0 -DUSE_PROF_API=1 -D__HIP_PLATFORM_AMD__=1 -Drocprofiler_compute_tool_EXPORTS -isystem /home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/dist/include -isystem /home/shiraz/amd/TheRock/build/core/clr/dist/include -isystem /home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -isystem /home/shiraz/amd/TheRock/build/compiler/amd-comgr-stub/dist/include -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/elfutils/build/dist/lib/rocm_sysdeps/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -fPIC -MD -MT src/lib/CMakeFiles/rocprofiler-compute-tool.dir/rocprofiler_compute_tool.cpp.o -MF src/lib/CMakeFiles/rocprofiler-compute-tool.dir/rocprofiler_compute_tool.cpp.o.d -o src/lib/CMakeFiles/rocprofiler-compute-tool.dir/rocprofiler_compute_tool.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-compute/src/lib/rocprofiler_compute_tool.cpp
+real=27.57
+user=14.60
+sys=0.64
+maxrss_kb=198248
+

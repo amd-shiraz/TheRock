@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DLIBPROTOC_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/third_party/utf8_range -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/protobuf/CMakeFiles/libprotoc.dir/src/google/protobuf/compiler/command_line_interface.cc.o -MF third_party/protobuf/CMakeFiles/libprotoc.dir/src/google/protobuf/compiler/command_line_interface.cc.o.d -o third_party/protobuf/CMakeFiles/libprotoc.dir/src/google/protobuf/compiler/command_line_interface.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src/google/protobuf/compiler/command_line_interface.cc
+real=18.96
+user=15.35
+sys=3.20
+maxrss_kb=488368
+

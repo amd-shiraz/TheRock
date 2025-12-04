@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/api/export-wisdom-to-string.c.o -MF CMakeFiles/fftw3.dir/api/export-wisdom-to-string.c.o.d -o CMakeFiles/fftw3.dir/api/export-wisdom-to-string.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/api/export-wisdom-to-string.c
+real=0.12
+user=0.05
+sys=0.06
+maxrss_kb=24576
+

@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DENABLE_ESMI_LIB=1 -Damd_smi_EXPORTS -I/home/shiraz/amd/TheRock/base/amdsmi/include -I/home/shiraz/amd/TheRock/build/base/amdsmi/build/include -I/home/shiraz/amd/TheRock/base/amdsmi/third_party/shared_mutex -I/home/shiraz/amd/TheRock/base/amdsmi/include/amd_smi -I/home/shiraz/amd/TheRock/base/amdsmi/esmi_ib_library/include -I/home/shiraz/amd/TheRock/base/amdsmi/src -I/home/shiraz/amd/TheRock/base/amdsmi/rocm_smi/include -I/home/shiraz/amd/TheRock/base/amdsmi/common/shared_mutex -I/home/shiraz/amd/TheRock/base/amdsmi/include/aca-decode -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -I/home/shiraz/amd/TheRock/base/amdsmi/src/include -Wtrampolines -Wall -Wextra -fno-rtti -m64 -msse -msse2 -Wconversion -Wcast-align -Wformat=2 -fno-common -Wstrict-overflow -Woverloaded-virtual -Wreorder -Wno-write-strings -O3 -DNDEBUG -std=c++17 -fPIC -MD -MT src/CMakeFiles/amd_smi.dir/amd_smi/amd_smi_common.cc.o -MF src/CMakeFiles/amd_smi.dir/amd_smi/amd_smi_common.cc.o.d -o src/CMakeFiles/amd_smi.dir/amd_smi/amd_smi_common.cc.o -c /home/shiraz/amd/TheRock/base/amdsmi/src/amd_smi/amd_smi_common.cc
+real=0.92
+user=0.66
+sys=0.16
+maxrss_kb=59392
+

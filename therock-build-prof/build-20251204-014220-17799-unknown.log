@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DCCOLAMD_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/build/CCOLAMD -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CCOLAMD -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CCOLAMD/Source -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CCOLAMD/Include -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/SuiteSparse_config -O3 -DNDEBUG -std=gnu11 -fPIC -MD -MT CCOLAMD/CMakeFiles/CCOLAMD.dir/Source/ccolamd.c.o -MF CCOLAMD/CMakeFiles/CCOLAMD.dir/Source/ccolamd.c.o.d -o CCOLAMD/CMakeFiles/CCOLAMD.dir/Source/ccolamd.c.o -c /home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CCOLAMD/Source/ccolamd.c
+real=0.78
+user=0.72
+sys=0.06
+maxrss_kb=51200
+

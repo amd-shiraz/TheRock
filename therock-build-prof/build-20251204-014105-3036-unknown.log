@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/.. -I/home/shiraz/amd/TheRock/build/third-party/Catch2/build/generated-includes -O3 -DNDEBUG -fPIC -ffile-prefix-map=/home/shiraz/amd/TheRock/build/third-party/Catch2/source/= -MD -MT src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o -MF src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o.d -o src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/reporters/catch_reporter_console.cpp
+real=1.74
+user=1.41
+sys=0.30
+maxrss_kb=104448
+

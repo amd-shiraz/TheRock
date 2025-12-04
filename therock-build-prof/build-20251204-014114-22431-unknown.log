@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/include -O3 -DNDEBUG -std=gnu++11 -MD -MT util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o -MF util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o.d -o util/CMakeFiles/yaml-cpp-parse.dir/parse.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/util/parse.cpp
+real=2.04
+user=1.39
+sys=0.27
+maxrss_kb=120832
+

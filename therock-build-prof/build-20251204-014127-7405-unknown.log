@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DENABLE_ESMI_LIB=1 -Drocm_smi64_EXPORTS -I/home/shiraz/amd/TheRock/base/amdsmi/include -I/home/shiraz/amd/TheRock/build/base/amdsmi/build/include -I/home/shiraz/amd/TheRock/base/amdsmi/third_party/shared_mutex -I/home/shiraz/amd/TheRock/base/amdsmi/include/amd_smi -I/home/shiraz/amd/TheRock/base/amdsmi/esmi_ib_library/include -I/home/shiraz/amd/TheRock/base/amdsmi/rocm_smi -I/home/shiraz/amd/TheRock/base/amdsmi/common/shared_mutex -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -I/home/shiraz/amd/TheRock/base/amdsmi/rocm_smi/include -O3 -DNDEBUG -fPIC -MD -MT rocm_smi/CMakeFiles/rocm_smi64.dir/__/esmi_ib_library/src/e_smi_plat.c.o -MF rocm_smi/CMakeFiles/rocm_smi64.dir/__/esmi_ib_library/src/e_smi_plat.c.o.d -o rocm_smi/CMakeFiles/rocm_smi64.dir/__/esmi_ib_library/src/e_smi_plat.c.o -c /home/shiraz/amd/TheRock/base/amdsmi/esmi_ib_library/src/e_smi_plat.c
+real=0.14
+user=0.04
+sys=0.04
+maxrss_kb=22528
+

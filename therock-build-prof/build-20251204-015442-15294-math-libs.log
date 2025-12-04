@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -Wall -Wextra -O3 -DNDEBUG -std=c++17 -MD -MT tools/CMakeFiles/xorwow_precomputed_generator.dir/xorwow_precomputed_generator.cpp.o -MF tools/CMakeFiles/xorwow_precomputed_generator.dir/xorwow_precomputed_generator.cpp.o.d -o tools/CMakeFiles/xorwow_precomputed_generator.dir/xorwow_precomputed_generator.cpp.o -c /home/shiraz/amd/TheRock/rocm-libraries/projects/rocrand/tools/xorwow_precomputed_generator.cpp
+real=3.20
+user=1.66
+sys=0.10
+maxrss_kb=110592
+

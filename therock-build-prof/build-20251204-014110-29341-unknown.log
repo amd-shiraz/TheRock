@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/third_party/shared_mutex -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/include/rocm_smi -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/oam/include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -O3 -DNDEBUG -MD -MT oam/CMakeFiles/oam_ex.dir/example/oam_example.c.o -MF oam/CMakeFiles/oam_ex.dir/example/oam_example.c.o.d -o oam/CMakeFiles/oam_ex.dir/example/oam_example.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/oam/example/oam_example.c
+real=0.20
+user=0.10
+sys=0.04
+maxrss_kb=26624
+

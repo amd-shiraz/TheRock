@@ -1,0 +1,7 @@
+comp=core
+cmd=/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=220 -I/home/shiraz/amd/TheRock/rocm-systems/projects/clr/opencl/khronos/headers/opencl2.2 -I/home/shiraz/amd/TheRock/rocm-systems/projects/clr/opencl/khronos/icd/test/./inc -O3 -DNDEBUG -MD -MT test/loader_test/CMakeFiles/icd_loader_test.dir/test_cl_runtime.c.o -MF test/loader_test/CMakeFiles/icd_loader_test.dir/test_cl_runtime.c.o.d -o test/loader_test/CMakeFiles/icd_loader_test.dir/test_cl_runtime.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/clr/opencl/khronos/icd/test/loader_test/test_cl_runtime.c
+real=0.05
+user=0.02
+sys=0.02
+maxrss_kb=26624
+

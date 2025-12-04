@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/.. -I/home/shiraz/amd/TheRock/build/third-party/Catch2/build/generated-includes -O3 -DNDEBUG -fPIC -ffile-prefix-map=/home/shiraz/amd/TheRock/build/third-party/Catch2/source/= -MD -MT src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o -MF src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o.d -o src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/internal/catch_list.cpp
+real=1.68
+user=1.34
+sys=0.32
+maxrss_kb=104448
+

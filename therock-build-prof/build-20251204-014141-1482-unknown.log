@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/testing.dir/re2/testing/regexp_generator.cc.o -MF third_party/re2/CMakeFiles/testing.dir/re2/testing/regexp_generator.cc.o.d -o third_party/re2/CMakeFiles/testing.dir/re2/testing/regexp_generator.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/re2/testing/regexp_generator.cc
+real=3.00
+user=2.56
+sys=0.37
+maxrss_kb=126976
+

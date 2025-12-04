@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -I/home/shiraz/amd/TheRock/build/third-party/host-blas/source -I/home/shiraz/amd/TheRock/build/third-party/host-blas/build/build-openblas -DHAVE_C11 -Wno-error=incompatible-pointer-types -Wall -m64 -DF_INTERFACE_GFORT -fPIC -DSMALL_MATRIX_OPT -DDYNAMIC_ARCH -DSMP_SERVER -DNO_WARMUP -DMAX_CPU_NUMBER=256 -DMAX_PARALLEL_NUMBER=1 -DMAX_STACK_ALLOC=2048 -DNO_AFFINITY -DVERSION="0.3.30" -DBUILD_SINGLE -DBUILD_DOUBLE -DBUILD_COMPLEX -DBUILD_COMPLEX16 -O3 -DNDEBUG -MD -MT build-openblas/driver/level3/CMakeFiles/driver_level3.dir/CMakeFiles/dtrmm_RTUU.c.o -MF build-openblas/driver/level3/CMakeFiles/driver_level3.dir/CMakeFiles/dtrmm_RTUU.c.o.d -o build-openblas/driver/level3/CMakeFiles/driver_level3.dir/CMakeFiles/dtrmm_RTUU.c.o -c /home/shiraz/amd/TheRock/build/third-party/host-blas/build/build-openblas/driver/level3/CMakeFiles/dtrmm_RTUU.c
+real=0.40
+user=0.20
+sys=0.20
+maxrss_kb=40960
+

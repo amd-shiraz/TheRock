@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/api/plan-many-dft-c2r.c.o -MF CMakeFiles/fftw3.dir/api/plan-many-dft-c2r.c.o.d -o CMakeFiles/fftw3.dir/api/plan-many-dft-c2r.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/api/plan-many-dft-c2r.c
+real=0.15
+user=0.05
+sys=0.08
+maxrss_kb=26624
+

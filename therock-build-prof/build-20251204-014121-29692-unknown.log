@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DGLOG_USE_GLOG_EXPORT -Drocprofiler_register_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/source/lib/rocprofiler-register -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/source -I/home/shiraz/amd/TheRock/build/base/rocprofiler-register/build/source -I/home/shiraz/amd/TheRock/build/base/rocprofiler-register/build/source/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/source/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/external/fmt/include -I/home/shiraz/amd/TheRock/build/base/rocprofiler-register/build/external/glog -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/external/glog/src -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -W -Wall -Wno-unknown-pragmas -fstack-protector-strong -Wstack-protector -Wstack-usage=8192 -faligned-new -MD -MT source/lib/rocprofiler-register/CMakeFiles/rocprofiler-register.dir/details/logging.cpp.o -MF source/lib/rocprofiler-register/CMakeFiles/rocprofiler-register.dir/details/logging.cpp.o.d -o source/lib/rocprofiler-register/CMakeFiles/rocprofiler-register.dir/details/logging.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/source/lib/rocprofiler-register/details/logging.cpp
+real=4.92
+user=4.11
+sys=0.61
+maxrss_kb=182272
+

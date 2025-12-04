@@ -1,0 +1,7 @@
+comp=core
+cmd=/usr/bin/cc -DCL_TARGET_OPENCL_VERSION=220 -DIcdLog_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/clr/opencl/khronos/headers/opencl2.2 -I/home/shiraz/amd/TheRock/rocm-systems/projects/clr/opencl/khronos/icd/test/./inc -O3 -DNDEBUG -fPIC -MD -MT test/log/CMakeFiles/IcdLog.dir/icd_test_log.c.o -MF test/log/CMakeFiles/IcdLog.dir/icd_test_log.c.o.d -o test/log/CMakeFiles/IcdLog.dir/icd_test_log.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/clr/opencl/khronos/icd/test/log/icd_test_log.c
+real=0.07
+user=0.05
+sys=0.01
+maxrss_kb=26624
+

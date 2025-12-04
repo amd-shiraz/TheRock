@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DGOOGLE_PROTOBUF_CMAKE_BUILD -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/third_party/utf8_range -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/implicit_weak_message.cc.o -MF third_party/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/implicit_weak_message.cc.o.d -o third_party/protobuf/CMakeFiles/libprotobuf-lite.dir/src/google/protobuf/implicit_weak_message.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src/google/protobuf/implicit_weak_message.cc
+real=3.31
+user=2.28
+sys=0.79
+maxrss_kb=190464
+

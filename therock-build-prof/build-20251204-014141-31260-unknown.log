@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/re2.dir/re2/unicode_groups.cc.o -MF third_party/re2/CMakeFiles/re2.dir/re2/unicode_groups.cc.o.d -o third_party/re2/CMakeFiles/re2.dir/re2/unicode_groups.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/re2/unicode_groups.cc
+real=0.25
+user=0.09
+sys=0.04
+maxrss_kb=16384
+

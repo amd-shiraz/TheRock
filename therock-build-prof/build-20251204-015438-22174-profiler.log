@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/util -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -fPIC -Wall -Wno-error=ignored-attributes -Werror -MD -MT src/CMakeFiles/util.dir/util/util.cpp.o -MF src/CMakeFiles/util.dir/util/util.cpp.o.d -o src/CMakeFiles/util.dir/util/util.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/util/util.cpp
+real=0.24
+user=0.21
+sys=0.03
+maxrss_kb=104448
+

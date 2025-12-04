@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/cc -DBOOST_ALL_NO_LIB=1 -DBOOST_MULTI_INDEX_DISABLE_SERIALIZATION -DROCPROFSYS_INTERNAL_BUILD=1 -DROCPROFSYS_MAX_THREADS=4096 -Drocprofiler_systems_dl_library_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-dl -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-dl/../rocprof-sys-user -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/source/lib/rocprof-sys-dl/../rocprof-sys -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/dist/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/source/lib -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/external/timemory/source -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/external/timemory/source -O3 -DNDEBUG -fPIC -fvisibility=internal -MD -MT source/lib/rocprof-sys-dl/CMakeFiles/rocprofiler-systems-dl-library.dir/main.c.o -MF source/lib/rocprof-sys-dl/CMakeFiles/rocprofiler-systems-dl-library.dir/main.c.o.d -o source/lib/rocprof-sys-dl/CMakeFiles/rocprofiler-systems-dl-library.dir/main.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-systems/source/lib/rocprof-sys-dl/main.c
+real=0.21
+user=0.08
+sys=0.03
+maxrss_kb=24576
+

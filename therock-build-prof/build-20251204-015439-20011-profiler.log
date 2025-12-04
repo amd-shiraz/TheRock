@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DAMD_INTERNAL_BUILD -DHIP_PROF_HIP_API_STRING=1 -D__HIP_PLATFORM_AMD__=1 -Dfile_plugin_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/inc -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/util -I/home/shiraz/amd/TheRock/build/core/clr/dist/include -I/home/shiraz/amd/TheRock/build/profiler/roctracer/build/src -isystem /home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -isystem /home/shiraz/amd/TheRock/build/compiler/amd-comgr-stub/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -Wall -Wno-error=ignored-attributes -Werror -MD -MT plugin/file/CMakeFiles/file_plugin.dir/file.cpp.o -MF plugin/file/CMakeFiles/file_plugin.dir/file.cpp.o.d -o plugin/file/CMakeFiles/file_plugin.dir/file.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/plugin/file/file.cpp
+real=54.37
+user=43.99
+sys=0.97
+maxrss_kb=407552
+

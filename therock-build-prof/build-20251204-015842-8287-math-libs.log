@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -I/home/shiraz/amd/TheRock/build/profiler/roctracer/stage/include -I/home/shiraz/amd/TheRock/build/math-libs/BLAS/rocRoller/build/_cmrc/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -fPIC -MD -MT GPUArchitectureGenerator/CMakeFiles/GPUArchitecture_def_library.dir/__cmrc_GPUArchitecture_def_library/intermediate/resources/GPUArchitecture_def.msgpack.cpp.o -MF GPUArchitectureGenerator/CMakeFiles/GPUArchitecture_def_library.dir/__cmrc_GPUArchitecture_def_library/intermediate/resources/GPUArchitecture_def.msgpack.cpp.o.d -o GPUArchitectureGenerator/CMakeFiles/GPUArchitecture_def_library.dir/__cmrc_GPUArchitecture_def_library/intermediate/resources/GPUArchitecture_def.msgpack.cpp.o -c /home/shiraz/amd/TheRock/build/math-libs/BLAS/rocRoller/build/GPUArchitectureGenerator/__cmrc_GPUArchitecture_def_library/intermediate/resources/GPUArchitecture_def.msgpack.cpp
+real=5.85
+user=2.31
+sys=0.22
+maxrss_kb=153088
+

@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/bin/clang++ -DGTEST_HAS_RTTI=0 -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/include -std=c++17 -pthread -fno-rtti -fvisibility-inlines-hidden -DLIB_CLANG_RES=22 -O3 -DNDEBUG -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fno-exceptions -funwind-tables -fno-rtti -MD -MT CMakeFiles/hipify-clang.dir/src/StringUtils.cpp.o -MF CMakeFiles/hipify-clang.dir/src/StringUtils.cpp.o.d -o CMakeFiles/hipify-clang.dir/src/StringUtils.cpp.o -c /home/shiraz/amd/TheRock/compiler/hipify/src/StringUtils.cpp
+real=7.42
+user=6.95
+sys=0.46
+maxrss_kb=430080
+

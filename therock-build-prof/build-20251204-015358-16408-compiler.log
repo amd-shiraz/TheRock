@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/c++ -DAMD_COMGR_BUILD -DAMD_COMGR_EXPORT -DAMD_COMGR_GIT_BRANCH=undefined -DAMD_COMGR_GIT_COMMIT=65b7684c7a99 -D_GNU_SOURCE -D_GNU_SOURCE -D_GLIBCXX_USE_CXX11_ABI=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -Damd_comgr_EXPORTS -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/include -I/home/shiraz/amd/TheRock/compiler/amd-llvm/amd/comgr/src -I/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/include/LLVMSPIRVLib -I/home/shiraz/amd/TheRock/build/compiler/amd-comgr/build/include -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/zlib/build/dist/lib/rocm_sysdeps/include -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/zstd/build/dist/lib/rocm_sysdeps/include -O3 -DNDEBUG -std=c++17 -fPIC -fno-rtti -Wall -Wno-attributes -fms-extensions -fvisibility=hidden -fno-strict-aliasing -MD -MT CMakeFiles/amd_comgr.dir/src/comgr.cpp.o -MF CMakeFiles/amd_comgr.dir/src/comgr.cpp.o.d -o CMakeFiles/amd_comgr.dir/src/comgr.cpp.o -c /home/shiraz/amd/TheRock/compiler/amd-llvm/amd/comgr/src/comgr.cpp
+real=7.00
+user=6.40
+sys=0.59
+maxrss_kb=573116
+

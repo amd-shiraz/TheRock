@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/re2.dir/re2/parse.cc.o -MF third_party/re2/CMakeFiles/re2.dir/re2/parse.cc.o.d -o third_party/re2/CMakeFiles/re2.dir/re2/parse.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/re2/parse.cc
+real=4.24
+user=3.76
+sys=0.36
+maxrss_kb=131072
+

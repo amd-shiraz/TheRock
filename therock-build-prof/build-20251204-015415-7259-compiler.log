@@ -1,0 +1,7 @@
+comp=compiler
+cmd=/usr/bin/cc -I/home/shiraz/amd/TheRock/build/compiler/amd-comgr/stage/include -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/amd_comgr.dir/trampoline/libamd_comgr.so.init.c.o -MF CMakeFiles/amd_comgr.dir/trampoline/libamd_comgr.so.init.c.o.d -o CMakeFiles/amd_comgr.dir/trampoline/libamd_comgr.so.init.c.o -c /home/shiraz/amd/TheRock/build/compiler/amd-comgr-stub/build/trampoline/libamd_comgr.so.init.c
+real=0.06
+user=0.04
+sys=0.02
+maxrss_kb=26624
+

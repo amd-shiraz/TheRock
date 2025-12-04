@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3f_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3f/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3f.dir/kernel/align.c.o -MF CMakeFiles/fftw3f.dir/kernel/align.c.o.d -o CMakeFiles/fftw3f.dir/kernel/align.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/kernel/align.c
+real=0.08
+user=0.03
+sys=0.04
+maxrss_kb=20480
+

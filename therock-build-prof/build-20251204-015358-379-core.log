@@ -1,0 +1,7 @@
+comp=core
+cmd=/home/shiraz/amd/TheRock/build/compiler/amd-llvm/dist/lib/llvm/bin/clang -DHAVE_MEMFD_CREATE=1 -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocr-runtime/libhsakmt/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocr-runtime/libhsakmt/src -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/numactl/build/dist/lib/rocm_sysdeps/include -O3 -DNDEBUG -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -fPIC -W -Wall -Wextra -Wno-unused-parameter -Wformat-security -Wswitch-default -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-qual -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wunreachable-code -std=gnu99 -fvisibility=hidden -O2 -MD -MT libhsakmt/CMakeFiles/hsakmt.dir/src/kfdcontext.c.o -MF libhsakmt/CMakeFiles/hsakmt.dir/src/kfdcontext.c.o.d -o libhsakmt/CMakeFiles/hsakmt.dir/src/kfdcontext.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocr-runtime/libhsakmt/src/kfdcontext.c
+real=0.08
+user=0.05
+sys=0.03
+maxrss_kb=92160
+

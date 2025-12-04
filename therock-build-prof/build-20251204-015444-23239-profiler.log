@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DPTL_ALLOC_EXPORT -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/ptl/source -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/build/external/ptl/source -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT external/ptl/source/CMakeFiles/ptl-static.dir/ThreadData.cc.o -MF external/ptl/source/CMakeFiles/ptl-static.dir/ThreadData.cc.o.d -o external/ptl/source/CMakeFiles/ptl-static.dir/ThreadData.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/ptl/source/ThreadData.cc
+real=2.25
+user=1.75
+sys=0.25
+maxrss_kb=131072
+

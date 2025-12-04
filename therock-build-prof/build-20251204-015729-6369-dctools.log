@@ -1,0 +1,7 @@
+comp=dctools
+cmd=/usr/bin/c++ -DENABLE_ESMI_LIB=1 -Drdc_bootstrap_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libcap/build/stage/lib/rocm_sysdeps/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/common -I/home/shiraz/amd/TheRock/build/base/amdsmi/dist/include -I/opt/rocm/include -Wall -Wextra -m64 -msse -msse2 -O2 -s -DNDEBUG -std=c++17 -fPIC -MD -MT rdc_libs/bootstrap/CMakeFiles/rdc_bootstrap.dir/src/RdcEntityCodec.cc.o -MF rdc_libs/bootstrap/CMakeFiles/rdc_bootstrap.dir/src/RdcEntityCodec.cc.o.d -o rdc_libs/bootstrap/CMakeFiles/rdc_bootstrap.dir/src/RdcEntityCodec.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rdc/rdc_libs/bootstrap/src/RdcEntityCodec.cc
+real=0.76
+user=0.42
+sys=0.08
+maxrss_kb=63488
+

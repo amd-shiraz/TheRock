@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/.. -I/home/shiraz/amd/TheRock/build/third-party/Catch2/build/generated-includes -O3 -DNDEBUG -fPIC -ffile-prefix-map=/home/shiraz/amd/TheRock/build/third-party/Catch2/source/= -MD -MT src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o -MF src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o.d -o src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/Catch2/source/src/catch2/internal/catch_assertion_handler.cpp
+real=0.84
+user=0.57
+sys=0.26
+maxrss_kb=75776
+

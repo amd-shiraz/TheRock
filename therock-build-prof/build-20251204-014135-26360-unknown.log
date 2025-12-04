@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/strings/CMakeFiles/cordz_functions.dir/internal/cordz_functions.cc.o -MF third_party/abseil-cpp/absl/strings/CMakeFiles/cordz_functions.dir/internal/cordz_functions.cc.o.d -o third_party/abseil-cpp/absl/strings/CMakeFiles/cordz_functions.dir/internal/cordz_functions.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/strings/internal/cordz_functions.cc
+real=1.42
+user=0.87
+sys=0.50
+maxrss_kb=96256
+

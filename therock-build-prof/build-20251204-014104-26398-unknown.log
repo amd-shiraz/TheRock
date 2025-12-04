@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -O3 -DNDEBUG -MD -MT CMakeFiles/dlopen-hip.dir/tests/dlopen-hip.c.o -MF CMakeFiles/dlopen-hip.dir/tests/dlopen-hip.c.o.d -o CMakeFiles/dlopen-hip.dir/tests/dlopen-hip.c.o -c /home/shiraz/amd/TheRock/tests/dlopen-hip.c
+real=0.02
+user=0.01
+sys=0.01
+maxrss_kb=22528
+

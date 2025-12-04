@@ -1,0 +1,14 @@
+comp=unknown
+cmd=/usr/bin/cc -DBUILD_KERNEL -DFORCE_PRESCOTT -DHAVE_C11 -Wno-error=incompatible-pointer-types -Wall -m64 -DF_INTERFACE_GFORT -fPIC -DSMALL_MATRIX_OPT -DDYNAMIC_ARCH -DSMP_SERVER -DNO_WARMUP -DMAX_CPU_NUMBER=256 -DMAX_PARALLEL_NUMBER=1 -DMAX_STACK_ALLOC=2048 -DNO_AFFINITY -DVERSION="0.3.30" -DBUILD_SINGLE -DBUILD_DOUBLE -DBUILD_COMPLEX -DBUILD_COMPLEX16 -DFORCE_PRESCOTT -march=native -DGEMM_MULTITHREAD_THRESHOLD=4 -DNO_PARALLEL_MAKE=0 -I/home/shiraz/amd/TheRock/build/third-party/host-blas/build/build-openblas/getarch2_build -I/home/shiraz/amd/TheRock/build/third-party/host-blas/source -I/home/shiraz/amd/TheRock/build/third-party/host-blas/build/build-openblas -o CMakeFiles/cmTC_46db5.dir/getarch_2nd.c.o -c /home/shiraz/amd/TheRock/build/third-party/host-blas/source/getarch_2nd.c
+real=0.03
+user=0.01
+sys=0.01
+maxrss_kb=20480
+
+comp=unknown
+cmd=/usr/bin/c++ -DCARES_STATICLIB -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/include -I/home/shiraz/amd/TheRock/build/third-party/grpc/source -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/address_sorting/include -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/re2 -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/include -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/src/core/ext/upb-gen -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/src/core/ext/upbdefs-gen -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/upb -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/utf8_range -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/xxhash -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/cares/cares -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/cares/cares -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/cares/cares/include -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/zlib/build/dist/lib/rocm_sysdeps/include -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT CMakeFiles/grpc.dir/src/core/client_channel/global_subchannel_pool.cc.o -MF CMakeFiles/grpc.dir/src/core/client_channel/global_subchannel_pool.cc.o.d -o CMakeFiles/grpc.dir/src/core/client_channel/global_subchannel_pool.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/src/core/client_channel/global_subchannel_pool.cc
+real=8.52
+user=5.65
+sys=1.15
+maxrss_kb=346112
+

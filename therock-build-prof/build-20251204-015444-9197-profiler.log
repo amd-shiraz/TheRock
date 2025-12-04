@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT external/CMakeFiles/rocprofiler-sdk-perfetto-static-library.dir/perfetto/sdk/perfetto.cc.o -MF external/CMakeFiles/rocprofiler-sdk-perfetto-static-library.dir/perfetto/sdk/perfetto.cc.o.d -o external/CMakeFiles/rocprofiler-sdk-perfetto-static-library.dir/perfetto/sdk/perfetto.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/perfetto/sdk/perfetto.cc
+real=115.78
+user=103.47
+sys=4.57
+maxrss_kb=2393156
+

@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3f_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3f/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3f.dir/rdft/hc2hc-direct.c.o -MF CMakeFiles/fftw3f.dir/rdft/hc2hc-direct.c.o.d -o CMakeFiles/fftw3f.dir/rdft/hc2hc-direct.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/rdft/hc2hc-direct.c
+real=0.19
+user=0.13
+sys=0.05
+maxrss_kb=28672
+

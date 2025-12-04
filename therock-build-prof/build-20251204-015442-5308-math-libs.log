@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -Wall -Wextra -O3 -DNDEBUG -std=c++17 -MD -MT tools/CMakeFiles/bin2typed.dir/bin2typed.cpp.o -MF tools/CMakeFiles/bin2typed.dir/bin2typed.cpp.o.d -o tools/CMakeFiles/bin2typed.dir/bin2typed.cpp.o -c /home/shiraz/amd/TheRock/rocm-libraries/projects/rocrand/tools/bin2typed.cpp
+real=4.58
+user=1.88
+sys=0.12
+maxrss_kb=114688
+

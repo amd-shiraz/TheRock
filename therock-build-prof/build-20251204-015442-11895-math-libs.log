@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DUSE_PROF_API=1 -D__HIP_PLATFORM_AMD__=1 -I/home/shiraz/amd/TheRock/rocm-libraries/projects/rocrand/library/src -I/home/shiraz/amd/TheRock/rocm-libraries/projects/rocrand/test -I/home/shiraz/amd/TheRock/rocm-libraries/projects/rocrand/library/include -I/home/shiraz/amd/TheRock/build/math-libs/rocRAND/build/library/include -isystem /home/shiraz/amd/TheRock/build/third-party/googletest/dist/include -isystem /home/shiraz/amd/TheRock/build/core/clr/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -Wall -Wextra -O3 -DNDEBUG -std=c++17 -x hip --offload-arch=gfx1100 --offload-arch=gfx1101 --offload-arch=gfx1102 --offload-arch=gfx1103 -MD -MT test/internal/CMakeFiles/test_rocrand_log_normal.dir/test_rocrand_log_normal.cpp.o -MF test/internal/CMakeFiles/test_rocrand_log_normal.dir/test_rocrand_log_normal.cpp.o.d -o test/internal/CMakeFiles/test_rocrand_log_normal.dir/test_rocrand_log_normal.cpp.o -c /home/shiraz/amd/TheRock/rocm-libraries/projects/rocrand/test/internal/test_rocrand_log_normal.cpp
+real=73.73
+user=62.09
+sys=2.14
+maxrss_kb=247808
+

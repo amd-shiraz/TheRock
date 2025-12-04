@@ -1,0 +1,7 @@
+comp=math-libs
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DUSE_PROF_API=1 -D__HIP_PLATFORM_AMD__=1 -I/home/shiraz/amd/TheRock/build/math-libs/rocPRIM/build/rocprim/include -I/home/shiraz/amd/TheRock/build/math-libs/rocPRIM/build/rocprim/include/rocprim -I/home/shiraz/amd/TheRock/rocm-libraries/projects/rocprim/rocprim/include -isystem /home/shiraz/amd/TheRock/rocm-libraries/projects/rocprim/test -isystem /home/shiraz/amd/TheRock/build/third-party/googletest/dist/include -isystem /home/shiraz/amd/TheRock/build/core/clr/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode --offload-compress -O3 -DNDEBUG -std=c++17 -x hip --offload-arch=gfx1100 --offload-arch=gfx1101 --offload-arch=gfx1102 --offload-arch=gfx1103 -MD -MT test/rocprim/CMakeFiles/test_constant_iterator.dir/test_constant_iterator.cpp.o -MF test/rocprim/CMakeFiles/test_constant_iterator.dir/test_constant_iterator.cpp.o.d -o test/rocprim/CMakeFiles/test_constant_iterator.dir/test_constant_iterator.cpp.o -c /home/shiraz/amd/TheRock/rocm-libraries/projects/rocprim/test/rocprim/test_constant_iterator.cpp
+real=52.84
+user=39.15
+sys=2.17
+maxrss_kb=200704
+

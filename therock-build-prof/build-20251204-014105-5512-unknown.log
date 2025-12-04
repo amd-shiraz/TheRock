@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/rdft/vrank3-transpose.c.o -MF CMakeFiles/fftw3.dir/rdft/vrank3-transpose.c.o.d -o CMakeFiles/fftw3.dir/rdft/vrank3-transpose.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/rdft/vrank3-transpose.c
+real=0.51
+user=0.41
+sys=0.09
+maxrss_kb=30720
+

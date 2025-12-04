@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/profiling/CMakeFiles/exponential_biased.dir/internal/exponential_biased.cc.o -MF third_party/abseil-cpp/absl/profiling/CMakeFiles/exponential_biased.dir/internal/exponential_biased.cc.o.d -o third_party/abseil-cpp/absl/profiling/CMakeFiles/exponential_biased.dir/internal/exponential_biased.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/profiling/internal/exponential_biased.cc
+real=0.65
+user=0.44
+sys=0.14
+maxrss_kb=59392
+

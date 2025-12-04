@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wcast-qual -Wconversion-null -Wformat-security -Wmissing-declarations -Woverlength-strings -Wpointer-arith -Wundef -Wunused-local-typedefs -Wunused-result -Wvarargs -Wvla -Wwrite-strings -DNOMINMAX -MD -MT third_party/abseil-cpp/absl/crc/CMakeFiles/crc_cpu_detect.dir/internal/cpu_detect.cc.o -MF third_party/abseil-cpp/absl/crc/CMakeFiles/crc_cpu_detect.dir/internal/cpu_detect.cc.o.d -o third_party/abseil-cpp/absl/crc/CMakeFiles/crc_cpu_detect.dir/internal/cpu_detect.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp/absl/crc/internal/cpu_detect.cc
+real=0.74
+user=0.42
+sys=0.23
+maxrss_kb=53248
+

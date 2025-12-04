@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -Drocm_sysdeps_sqlite3_EXPORTS -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/rocm_sysdeps_sqlite3.dir/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/sqlite3/source/sqlite3.c.o -MF CMakeFiles/rocm_sysdeps_sqlite3.dir/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/sqlite3/source/sqlite3.c.o.d -o CMakeFiles/rocm_sysdeps_sqlite3.dir/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/sqlite3/source/sqlite3.c.o -c /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/sqlite3/source/sqlite3.c
+real=74.78
+user=60.87
+sys=12.05
+maxrss_kb=365592
+

@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang -DAMD_INTERNAL_BUILD -DHIP_TEST=0 -D__HIP_PLATFORM_AMD__ -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/inc -I/home/shiraz/amd/TheRock/build/core/clr/dist/include -I/home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -I/home/shiraz/amd/TheRock/build/profiler/roctracer/build/src -O3 -DNDEBUG -Wall -Wno-error=ignored-attributes -Werror -MD -MT test/CMakeFiles/MatrixTranspose_ctest.dir/MatrixTranspose.c.o -MF test/CMakeFiles/MatrixTranspose_ctest.dir/MatrixTranspose.c.o.d -o test/CMakeFiles/MatrixTranspose_ctest.dir/MatrixTranspose.c.o -c /home/shiraz/amd/TheRock/build/profiler/roctracer/build/test/MatrixTranspose.c
+real=0.36
+user=0.29
+sys=0.06
+maxrss_kb=100352
+

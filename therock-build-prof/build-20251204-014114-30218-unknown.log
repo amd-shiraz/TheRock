@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/include -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/src -O3 -DNDEBUG -std=gnu++11 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -MD -MT CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -MF CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o.d -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/src/emitterutils.cpp
+real=7.94
+user=6.89
+sys=0.42
+maxrss_kb=147432
+

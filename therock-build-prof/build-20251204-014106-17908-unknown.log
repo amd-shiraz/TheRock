@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -MD -MT CMakeFiles/bench.dir/libbench2/tensor.c.o -MF CMakeFiles/bench.dir/libbench2/tensor.c.o.d -o CMakeFiles/bench.dir/libbench2/tensor.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/libbench2/tensor.c
+real=0.27
+user=0.18
+sys=0.09
+maxrss_kb=28672
+

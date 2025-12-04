@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -Drocm_smi64_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/third_party/shared_mutex -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/rocm_smi -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/common/shared_mutex -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/rocm_smi/include -Wall -Wextra -fno-rtti -m64 -msse -msse2 -Wconversion -Wcast-align -Wformat=2 -fno-common -Wstrict-overflow -Woverloaded-virtual -Wreorder -O2 -DFORTIFY_SOURCE=2 -fstack-protector-all -Wcast-align -Wtrampolines -O3 -DNDEBUG -std=gnu++17 -fPIC -MD -MT rocm_smi/CMakeFiles/rocm_smi64.dir/__/src/rocm_smi.cc.o -MF rocm_smi/CMakeFiles/rocm_smi64.dir/__/src/rocm_smi.cc.o.d -o rocm_smi/CMakeFiles/rocm_smi64.dir/__/src/rocm_smi.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocm-smi-lib/src/rocm_smi.cc
+real=21.83
+user=17.70
+sys=1.19
+maxrss_kb=309248
+

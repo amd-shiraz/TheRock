@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DENABLE_ESMI_LIB=1 -Drocm_smi64_EXPORTS -I/home/shiraz/amd/TheRock/base/amdsmi/include -I/home/shiraz/amd/TheRock/build/base/amdsmi/build/include -I/home/shiraz/amd/TheRock/base/amdsmi/third_party/shared_mutex -I/home/shiraz/amd/TheRock/base/amdsmi/include/amd_smi -I/home/shiraz/amd/TheRock/base/amdsmi/esmi_ib_library/include -I/home/shiraz/amd/TheRock/base/amdsmi/rocm_smi -I/home/shiraz/amd/TheRock/base/amdsmi/common/shared_mutex -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libdrm/build/stage/lib/rocm_sysdeps/lib/pkgconfig/../../include/libdrm -I/home/shiraz/amd/TheRock/base/amdsmi/rocm_smi/include -Wtrampolines -Wall -Wextra -fno-rtti -m64 -msse -msse2 -Wconversion -Wcast-align -Wformat=2 -fno-common -Wstrict-overflow -Woverloaded-virtual -Wreorder -Wno-write-strings -O3 -DNDEBUG -std=c++17 -fPIC -MD -MT rocm_smi/CMakeFiles/rocm_smi64.dir/src/rocm_smi_kfd.cc.o -MF rocm_smi/CMakeFiles/rocm_smi64.dir/src/rocm_smi_kfd.cc.o.d -o rocm_smi/CMakeFiles/rocm_smi64.dir/src/rocm_smi_kfd.cc.o -c /home/shiraz/amd/TheRock/base/amdsmi/rocm_smi/src/rocm_smi_kfd.cc
+real=8.74
+user=6.86
+sys=0.87
+maxrss_kb=223232
+

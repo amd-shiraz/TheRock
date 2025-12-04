@@ -1,0 +1,8 @@
+Command exited with non-zero status 1
+comp=profiler
+cmd=/usr/bin/cc -DcmTC_e140a_EXPORTS -fPIE -o CMakeFiles/cmTC_e140a.dir/test_mpi.c.o -c /home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/CMakeFiles/CMakeScratch/TryCompile-dWZOrq/test_mpi.c
+real=0.02
+user=0.00
+sys=0.01
+maxrss_kb=8192
+

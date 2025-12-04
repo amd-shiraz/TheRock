@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/googletest/source/googletest/include -I/home/shiraz/amd/TheRock/build/third-party/googletest/source/googletest -O3 -DNDEBUG -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -MD -MT googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/shiraz/amd/TheRock/build/third-party/googletest/source/googletest/src/gtest-all.cc
+real=19.74
+user=17.00
+sys=0.88
+maxrss_kb=356352
+

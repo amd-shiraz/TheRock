@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/cc -Dgotcha_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/gotcha/include -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/build/include -I/home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/build/external/gotcha/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/gotcha/src -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -MD -MT external/gotcha/src/CMakeFiles/gotcha.dir/hash.c.o -MF external/gotcha/src/CMakeFiles/gotcha.dir/hash.c.o.d -o external/gotcha/src/CMakeFiles/gotcha.dir/hash.c.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-sdk/external/gotcha/src/hash.c
+real=0.49
+user=0.18
+sys=0.04
+maxrss_kb=24576
+

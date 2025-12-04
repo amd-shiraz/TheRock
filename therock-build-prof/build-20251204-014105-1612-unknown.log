@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/dft/bluestein.c.o -MF CMakeFiles/fftw3.dir/dft/bluestein.c.o.d -o CMakeFiles/fftw3.dir/dft/bluestein.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/dft/bluestein.c
+real=0.40
+user=0.22
+sys=0.10
+maxrss_kb=28672
+

@@ -1,0 +1,7 @@
+comp=dctools
+cmd=/usr/bin/c++ -DCARES_STATICLIB -DCURRENT_GIT_HASH=0b8556834e -DENABLE_ESMI_LIB=1 -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libcap/build/stage/lib/rocm_sysdeps/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/server/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/include -I/home/shiraz/amd/TheRock/build/dctools/rdc/build -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc -isystem /home/shiraz/amd/TheRock/build/third-party/grpc/build/stage/include -isystem /home/shiraz/amd/TheRock/build/base/amdsmi/dist/include -isystem /home/shiraz/amd/TheRock/build/third-party/grpc/build/dist/include -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/zlib/build/dist/lib/rocm_sysdeps/include -Wall -Wextra -m64 -msse -msse2 -O2 -s -DNDEBUG -std=c++17 -MD -MT server/CMakeFiles/rdcd.dir/__/common/rdc_utils.cc.o -MF server/CMakeFiles/rdcd.dir/__/common/rdc_utils.cc.o.d -o server/CMakeFiles/rdcd.dir/__/common/rdc_utils.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rdc/common/rdc_utils.cc
+real=3.07
+user=0.83
+sys=0.16
+maxrss_kb=77824
+

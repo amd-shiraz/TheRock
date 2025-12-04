@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3f_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3f/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3f.dir/rdft/scalar/r2cb/r2cb_4.c.o -MF CMakeFiles/fftw3f.dir/rdft/scalar/r2cb/r2cb_4.c.o.d -o CMakeFiles/fftw3f.dir/rdft/scalar/r2cb/r2cb_4.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/rdft/scalar/r2cb/r2cb_4.c
+real=0.09
+user=0.05
+sys=0.03
+maxrss_kb=26624
+

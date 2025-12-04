@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DAMD_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/build/AMD -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/AMD -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/AMD/Source -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/AMD/Include -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/SuiteSparse_config -O3 -DNDEBUG -std=gnu11 -fPIC -MD -MT AMD/CMakeFiles/AMD.dir/Source/amd_l_post_tree.c.o -MF AMD/CMakeFiles/AMD.dir/Source/amd_l_post_tree.c.o.d -o AMD/CMakeFiles/AMD.dir/Source/amd_l_post_tree.c.o -c /home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/AMD/Source/amd_l_post_tree.c
+real=0.06
+user=0.03
+sys=0.03
+maxrss_kb=26624
+

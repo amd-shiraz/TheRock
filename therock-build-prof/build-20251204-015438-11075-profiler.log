@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DROCTX_EXPORTS -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/inc -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -Wall -Wno-error=ignored-attributes -Werror -MD -MT src/CMakeFiles/roctx.dir/roctx/roctx.cpp.o -MF src/CMakeFiles/roctx.dir/roctx/roctx.cpp.o.d -o src/CMakeFiles/roctx.dir/roctx/roctx.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/src/roctx/roctx.cpp
+real=0.11
+user=0.08
+sys=0.03
+maxrss_kb=98304
+

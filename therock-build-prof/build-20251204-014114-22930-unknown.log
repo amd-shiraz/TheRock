@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/include -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/src -O3 -DNDEBUG -std=gnu++11 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -MD -MT CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -MF CMakeFiles/yaml-cpp.dir/src/binary.cpp.o.d -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/src/binary.cpp
+real=0.97
+user=0.48
+sys=0.11
+maxrss_kb=51200
+

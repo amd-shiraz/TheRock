@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -MD -MT CMakeFiles/bench.dir/libbench2/main.c.o -MF CMakeFiles/bench.dir/libbench2/main.c.o.d -o CMakeFiles/bench.dir/libbench2/main.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/libbench2/main.c
+real=0.08
+user=0.02
+sys=0.06
+maxrss_kb=20480
+

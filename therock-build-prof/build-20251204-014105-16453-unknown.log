@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DFLATBUFFERS_LOCALE_INDEPENDENT=1 -I/home/shiraz/amd/TheRock/build/third-party/flatbuffers/source/include -I/home/shiraz/amd/TheRock/build/third-party/flatbuffers/source/grpc -O3 -DNDEBUG -std=c++17 -Wall -pedantic -Wextra -Wno-unused-parameter -Wold-style-cast -fsigned-char -Wnon-virtual-dtor -Wunused-result -Wunused-parameter -Werror=unused-parameter -Wmissing-declarations -Wzero-as-null-pointer-constant -faligned-new -Wextra-semi -MD -MT CMakeFiles/flatbuffers.dir/src/util.cpp.o -MF CMakeFiles/flatbuffers.dir/src/util.cpp.o.d -o CMakeFiles/flatbuffers.dir/src/util.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/flatbuffers/source/src/util.cpp
+real=1.87
+user=1.52
+sys=0.33
+maxrss_kb=129024
+

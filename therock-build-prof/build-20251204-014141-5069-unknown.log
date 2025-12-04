@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/possible_match_test.dir/util/test.cc.o -MF third_party/re2/CMakeFiles/possible_match_test.dir/util/test.cc.o.d -o third_party/re2/CMakeFiles/possible_match_test.dir/util/test.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/util/test.cc
+real=0.74
+user=0.55
+sys=0.16
+maxrss_kb=65536
+

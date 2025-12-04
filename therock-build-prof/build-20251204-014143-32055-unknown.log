@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DBORINGSSL_IMPLEMENTATION -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/include -fvisibility=hidden -fno-common -D_XOPEN_SOURCE=700 -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -MD -MT third_party/boringssl-with-bazel/CMakeFiles/crypto.dir/src/crypto/fipsmodule/bcm.c.o -MF third_party/boringssl-with-bazel/CMakeFiles/crypto.dir/src/crypto/fipsmodule/bcm.c.o.d -o third_party/boringssl-with-bazel/CMakeFiles/crypto.dir/src/crypto/fipsmodule/bcm.c.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/boringssl-with-bazel/src/crypto/fipsmodule/bcm.c
+real=16.27
+user=14.65
+sys=1.55
+maxrss_kb=253952
+

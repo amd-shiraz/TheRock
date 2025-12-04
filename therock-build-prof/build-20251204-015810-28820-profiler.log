@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/usr/bin/c++ -DBOOST_ALL_NO_LIB=1 -DBOOST_MULTI_INDEX_DISABLE_SERIALIZATION -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=internal -static-libgcc -static-libstdc++ -MD -MT CMakeFiles/rocprofiler-systems-perfetto-library.dir/external/perfetto/source/sdk/perfetto.cc.o -MF CMakeFiles/rocprofiler-systems-perfetto-library.dir/external/perfetto/source/sdk/perfetto.cc.o.d -o CMakeFiles/rocprofiler-systems-perfetto-library.dir/external/perfetto/source/sdk/perfetto.cc.o -c /home/shiraz/amd/TheRock/build/profiler/rocprofiler-systems/build/external/perfetto/source/sdk/perfetto.cc
+real=165.11
+user=126.89
+sys=7.32
+maxrss_kb=2377528
+

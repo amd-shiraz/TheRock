@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DCAMD_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/build/CAMD -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CAMD -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CAMD/Source -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CAMD/Include -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/SuiteSparse_config -O3 -DNDEBUG -std=gnu11 -fPIC -MD -MT CAMD/CMakeFiles/CAMD.dir/Source/camd_l_dump.c.o -MF CAMD/CMakeFiles/CAMD.dir/Source/camd_l_dump.c.o.d -o CAMD/CMakeFiles/CAMD.dir/Source/camd_l_dump.c.o -c /home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/CAMD/Source/camd_l_dump.c
+real=0.05
+user=0.02
+sys=0.02
+maxrss_kb=14336
+

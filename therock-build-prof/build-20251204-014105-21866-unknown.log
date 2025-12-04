@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DFFTW_DLL -Dfftw3_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/fftw3/source/. -I/home/shiraz/amd/TheRock/build/third-party/fftw3/build_fftw3/build -O3 -DNDEBUG -fPIC -MD -MT CMakeFiles/fftw3.dir/reodft/reodft010e-r2hc.c.o -MF CMakeFiles/fftw3.dir/reodft/reodft010e-r2hc.c.o.d -o CMakeFiles/fftw3.dir/reodft/reodft010e-r2hc.c.o -c /home/shiraz/amd/TheRock/build/third-party/fftw3/source/reodft/reodft010e-r2hc.c
+real=0.31
+user=0.22
+sys=0.08
+maxrss_kb=30720
+

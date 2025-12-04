@@ -1,0 +1,7 @@
+comp=rccl
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DROCM_VERSION=71100 -DUSE_PROF_API=1 -D__HIP_PLATFORM_AMD__=1 -I/home/shiraz/amd/TheRock/build/profiler/roctracer/stage/include -I/home/shiraz/amd/TheRock/build/comm-libs/rccl/build/include -I/home/shiraz/amd/TheRock/build/comm-libs/rccl/build/hipify/src -I/home/shiraz/amd/TheRock/build/comm-libs/rccl/build/hipify/src/include -isystem /home/shiraz/amd/TheRock/build/core/clr/dist/include -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=c++17 -x hip --offload-arch=gfx1100 --offload-arch=gfx1101 --offload-arch=gfx1102 -MD -MT CMakeFiles/rcclras.dir/hipify/src/ras/client.cc.o -MF CMakeFiles/rcclras.dir/hipify/src/ras/client.cc.o.d -o CMakeFiles/rcclras.dir/hipify/src/ras/client.cc.o -c /home/shiraz/amd/TheRock/build/comm-libs/rccl/build/hipify/src/ras/client.cc
+real=42.27
+user=11.11
+sys=0.94
+maxrss_kb=141312
+

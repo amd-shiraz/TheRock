@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DLIBPROTOC_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf -I/home/shiraz/amd/TheRock/build/third-party/grpc/build/build/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/third_party/utf8_range -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/abseil-cpp -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/protobuf/CMakeFiles/libprotoc.dir/src/google/protobuf/compiler/java/lite/enum_field.cc.o -MF third_party/protobuf/CMakeFiles/libprotoc.dir/src/google/protobuf/compiler/java/lite/enum_field.cc.o.d -o third_party/protobuf/CMakeFiles/libprotoc.dir/src/google/protobuf/compiler/java/lite/enum_field.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/protobuf/src/google/protobuf/compiler/java/lite/enum_field.cc
+real=9.66
+user=8.22
+sys=0.98
+maxrss_kb=376832
+

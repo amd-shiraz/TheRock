@@ -1,0 +1,7 @@
+comp=rccl
+cmd=/usr/bin/c++ -DENABLE_ESMI_LIB=1 -DROCPROFILER_SDK_USE_SYSTEM_RCCL=0 -DUSE_PROF_API=1 -D__HIP_PLATFORM_AMD__=1 -Drdc_rocp_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/libcap/build/stage/lib/rocm_sysdeps/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/include -I/home/shiraz/amd/TheRock/rocm-systems/projects/rdc/common -I/opt/rocm/include -I/opt/rocm/include/hsa -isystem /home/shiraz/amd/TheRock/build/base/amdsmi/dist/include -isystem /home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -isystem /home/shiraz/amd/TheRock/build/profiler/rocprofiler-sdk/dist/include -isystem /home/shiraz/amd/TheRock/build/core/clr/dist/include -isystem /home/shiraz/amd/TheRock/build/compiler/amd-comgr-stub/dist/include -isystem /home/shiraz/amd/TheRock/build/third-party/sysdeps/linux/elfutils/build/dist/lib/rocm_sysdeps/include -Wall -Wextra -m64 -msse -msse2 -O2 -s -DNDEBUG -std=c++17 -fPIC -MD -MT rdc_libs/rdc_modules/rdc_rocp/CMakeFiles/rdc_rocp.dir/RdcTelemetryLib.cc.o -MF rdc_libs/rdc_modules/rdc_rocp/CMakeFiles/rdc_rocp.dir/RdcTelemetryLib.cc.o.d -o rdc_libs/rdc_modules/rdc_rocp/CMakeFiles/rdc_rocp.dir/RdcTelemetryLib.cc.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/rdc/rdc_libs/rdc_modules/rdc_rocp/RdcTelemetryLib.cc
+real=20.26
+user=3.70
+sys=0.49
+maxrss_kb=186368
+

@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/cc -DBLAS_OpenBLAS -DSuiteSparseConfig_EXPORTS -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/build/SuiteSparse_config -I/home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/SuiteSparse_config -O3 -DNDEBUG -std=gnu11 -fPIC -MD -MT SuiteSparse_config/CMakeFiles/SuiteSparseConfig.dir/SuiteSparse_config.c.o -MF SuiteSparse_config/CMakeFiles/SuiteSparseConfig.dir/SuiteSparse_config.c.o.d -o SuiteSparse_config/CMakeFiles/SuiteSparseConfig.dir/SuiteSparse_config.c.o -c /home/shiraz/amd/TheRock/build/third-party/SuiteSparse/source/SuiteSparse_config/SuiteSparse_config.c
+real=0.14
+user=0.11
+sys=0.03
+maxrss_kb=30720
+

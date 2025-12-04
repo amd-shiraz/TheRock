@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -I/home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT third_party/re2/CMakeFiles/re2.dir/re2/prefilter_tree.cc.o -MF third_party/re2/CMakeFiles/re2.dir/re2/prefilter_tree.cc.o.d -o third_party/re2/CMakeFiles/re2.dir/re2/prefilter_tree.cc.o -c /home/shiraz/amd/TheRock/build/third-party/grpc/source/third_party/re2/re2/prefilter_tree.cc
+real=3.75
+user=3.02
+sys=0.50
+maxrss_kb=126976
+

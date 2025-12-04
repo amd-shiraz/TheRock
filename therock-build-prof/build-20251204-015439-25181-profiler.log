@@ -1,0 +1,7 @@
+comp=profiler
+cmd=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/bin/clang++ -DAMD_INTERNAL_BUILD -I/home/shiraz/amd/TheRock/build/core/clr/dist/include -I/home/shiraz/amd/TheRock/build/core/ROCR-Runtime/dist/include -I/home/shiraz/amd/TheRock/build/profiler/roctracer/build/src -I/home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/inc -Wno-documentation-unknown-command -Wno-documentation-pedantic -Wno-unused-command-line-argument -Wno-explicit-specialization-storage-class --hip-path=/home/shiraz/amd/TheRock/build/core/clr/dist --hip-device-lib-path=/home/shiraz/amd/TheRock/build/core/clr/dist/lib/llvm/amdgcn/bitcode -O3 -DNDEBUG -std=gnu++17 -Wall -Wno-error=ignored-attributes -Werror -MD -MT test/CMakeFiles/backward_compat_test.dir/app/backward_compat_test.cpp.o -MF test/CMakeFiles/backward_compat_test.dir/app/backward_compat_test.cpp.o.d -o test/CMakeFiles/backward_compat_test.dir/app/backward_compat_test.cpp.o -c /home/shiraz/amd/TheRock/rocm-systems/projects/roctracer/test/app/backward_compat_test.cpp
+real=0.08
+user=0.04
+sys=0.03
+maxrss_kb=88064
+

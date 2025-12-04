@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_USE_GLOG_EXPORT -I/home/shiraz/amd/TheRock/rocm-systems/projects/rocprofiler-register/external/glog/src -I/home/shiraz/amd/TheRock/build/base/rocprofiler-register/build/external/glog -O3 -DNDEBUG -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -MD -MT external/glog/CMakeFiles/glog.dir/CMakeFiles/glog.cc.o -MF external/glog/CMakeFiles/glog.dir/CMakeFiles/glog.cc.o.d -o external/glog/CMakeFiles/glog.dir/CMakeFiles/glog.cc.o -c /home/shiraz/amd/TheRock/build/base/rocprofiler-register/build/external/glog/CMakeFiles/glog.cc
+real=0.06
+user=0.01
+sys=0.02
+maxrss_kb=8192
+

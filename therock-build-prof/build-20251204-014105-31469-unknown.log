@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DCOMPILER_SUPPORT_std=cpp03 -std=c++03 -o CMakeFiles/cmTC_d94a8.dir/src.cxx.o -c /home/shiraz/amd/TheRock/build/third-party/eigen/build/CMakeFiles/CMakeScratch/TryCompile-v09zFL/src.cxx
+real=0.02
+user=0.01
+sys=0.01
+maxrss_kb=16384
+

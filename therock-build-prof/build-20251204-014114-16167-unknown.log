@@ -1,0 +1,7 @@
+comp=unknown
+cmd=/usr/bin/c++ -DYAML_CPP_STATIC_DEFINE -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/include -I/home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/src -O3 -DNDEBUG -std=gnu++11 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -MD -MT CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -MF CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o.d -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /home/shiraz/amd/TheRock/build/third-party/yaml-cpp/source/src/scanscalar.cpp
+real=3.34
+user=2.35
+sys=0.28
+maxrss_kb=94208
+
