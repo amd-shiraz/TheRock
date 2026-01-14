@@ -1,0 +1,114 @@
+name: ARC Actions (Kubernetes)
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "ARC action to perform"
+        required: true
+        type: choice
+        options:
+          - dump-debug
+          - restart
+          - scale
+          - pause
+
+      arc_namespace:
+        description: "Namespace for ARC controller/listener (e.g., arc-systems)"
+        required: true
+        default: "arc-systems"
+        type: string
+
+      runners_namespace:
+        description: "Namespace where runner resources/pods live (e.g., arc-runners)"
+        required: true
+        default: "arc-runners"
+        type: string
+
+      runner_resource_name:
+        description: "Runner resource name (RunnerScaleSet or RunnerDeployment) for scale/pause"
+        required: false
+        default: ""
+        type: string
+
+      replicas:
+        description: "Replicas for scale (ignored for dump-debug/restart). Pause forces 0."
+        required: false
+        default: "0"
+        type: string
+
+      include_logs:
+        description: "Include pod logs in dump-debug"
+        required: false
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+      dry_run:
+        description: "If true, do not apply changes (prints plan only where applicable)"
+        required: false
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: arc-actions
+  cancel-in-progress: false
+
+jobs:
+  arc_actions:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout (for scripts + audit folder)
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install kubectl
+        uses: azure/setup-kubectl@v4
+        with:
+          version: v1.29.0
+
+      # --- Cluster auth (generic kubeconfig secret) ---
+      # Store a base64 kubeconfig in repo/org secret: KUBECONFIG_B64
+      - name: Configure kubeconfig
+        env:
+          KUBECONFIG_B64: ${{ secrets.KUBECONFIG_B64 }}
+        run: |
+          set -euo pipefail
+          if [ -z "${KUBECONFIG_B64:-}" ]; then
+            echo "ERROR: missing secret KUBECONFIG_B64 (base64-encoded kubeconfig)."
+            echo "Create it as a repo/org secret and re-run."
+            exit 1
+          fi
+          mkdir -p "$HOME/.kube"
+          echo "$KUBECONFIG_B64" | base64 -d > "$HOME/.kube/config"
+          chmod 600 "$HOME/.kube/config"
+          kubectl version --client=true
+          kubectl get ns >/dev/null
+
+      - name: Run ARC action (python)
+        env:
+          ACTION: ${{ inputs.action }}
+          ARC_NS: ${{ inputs.arc_namespace }}
+          RUNNERS_NS: ${{ inputs.runners_namespace }}
+          RUNNER_NAME: ${{ inputs.runner_resource_name }}
+          REPLICAS: ${{ inputs.replicas }}
+          INCLUDE_LOGS: ${{ inputs.include_logs }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          python .github/runner_health/arc_actions.py
+
+      - name: Upload ARC action audit bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: arc-action-audit
+          path: .github/runner_health/out_arc_action/
+          if-no-files-found: error
+          retention-days: 30
